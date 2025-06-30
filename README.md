@@ -45,6 +45,8 @@ cd backend_facturacion
   env\Scripts\activate
   # En macOS/Linux
   source env/bin/activate
+#Comando para crear un nuevo modulo
+python manage.py startapp <nombre_modulo>
 
 //INSTALAR DEPENDENCIAS:
 pip install -r requirements.txt
